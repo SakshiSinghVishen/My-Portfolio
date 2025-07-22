@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+  background-color: #7d6854;
+  padding-top: 4rem;
+  width:100vw;
+  font-family: 'Cambria';
+  letter-spacing: 0.1em;
+  font-size: 1.2rem;
+  word-spacing: 1rem;
+  text-align: center;
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+  margin: auto;
+  font-weight: bold;
+  font-family: 'Cambria';
+}
+
+main{
+    background-color: #7d6854;
+    height:70vh;
+    width: 100vw;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+footer{
+    background-color: #0e0e0d;
+}
+.box2{
+    position: relative;
+    background-color: #0e0e0d;
+    height: 40vh ;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+#contact-me{
+    position: absolute;
+    width: 100vw ;
+    padding-top: 2rem ;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Cambria';
+    font-size: 2rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+.logos{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  margin-top: 5rem;
+  flex-wrap:wrap ;
+  align-items: center;
+  width: 100vw;
+  height: 15rem;
+  justify-content: center;
+  gap:20rem;
+}
+
+.box{
+  display: flex;
+  background-color: #7d6854;
+  width: 100vw;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content:space-between ;
+  gap:2rem ;
+  padding-bottom: 4rem;
+}
+
+.hobbies1{
+  height:fit-content ;
+  max-width:28vw ;
+  color: white;
+  font-size: 1.25rem;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 10rem;
+}
+
+H2{
+  font-size: 1.5rem;
+}
+
+.hobbies2{
+  height: fit-content;
+  color: white;
+  max-width:28vw ;
+  font-size: 1.25rem;
+  font-family: 'Times New Roman', Times, serif;
+  margin-right: 10rem;
+}
+
+h1{
+  text-align: center;
+  padding-bottom: 2rem;
+  color: black;
+}
+
+.line{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 3rem;
+}
+
+#line1{
+  height: 0.3rem;
+  width: 23rem;
+}
