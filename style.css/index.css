@@ -283,9 +283,12 @@ nav .tabs a {
   font-size: 1.33rem;
   max-width: 40%;
   margin-bottom: 2rem;
-  text-align: center;
+  text-align: left;
 }
 
+footer{
+  padding-top: 5rem;
+}
 .box2{
     position: relative;
     background-color: #0e0e0d;
@@ -295,7 +298,7 @@ nav .tabs a {
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-    padding-top: 0rem;
+    padding-top: 2rem;
 }
 
 #contact-me{

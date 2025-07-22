@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
+    /* background-color: #7d6854; */
 }
 
 header {
@@ -25,7 +26,6 @@ nav a{
 
 main{
     background-color: #7d6854;
-    height:70vh;
     width: 100vw;
     padding-top: 2rem;
     padding-bottom: 2rem;

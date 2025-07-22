@@ -26,10 +26,12 @@ nav a{
 main{
     background-color: #7d6854;
     padding-top: 5rem;
-    height:70vh;
     width: 100vw;
     text-align: center;
     align-items: center;
+    /* margin-bottom: 5rem; */
+    padding-bottom: 5rem;
+
 }
 
 h1{
@@ -39,6 +41,7 @@ h1{
 
 footer{
     background-color: #7d6854;
+    padding-top: 5rem;
 }
 
 .box2{
