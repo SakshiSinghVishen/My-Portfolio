@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+  background-color: #7d6854;
+  padding-top: 4rem;
+  width:100vw;
+  font-family: 'Cambria';
+  letter-spacing: 0.1em;
+  font-size: 1.2rem;
+  word-spacing: 1rem;
+  text-align: center;
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+  margin: auto;
+  font-weight: bold;
+  font-family: 'Cambria';
+}
+
+footer{
+    background-color: #0e0e0d;
+}
+.box2{
+    position: relative;
+    background-color: #0e0e0d;
+    height: 40vh ;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#contact-me{
+    position: absolute;
+    width: 100vw ;
+    padding-top: 2rem ;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Cambria';
+    font-size: 2rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+.logos{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  margin-top: 5rem;
+  flex-wrap:wrap ;
+  align-items: center;
+  width: 100vw;
+  height: 15rem;
+  justify-content: center;
+  gap:20rem;
+}
+
+main{
+    background-color: #7d6854;
+    width: 100vw;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#project{
+    display: flex;
+    gap: 2rem;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    max-width: 45%;
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    gap:3rem;
+    margin-bottom:2rem ;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+
+h1{
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}

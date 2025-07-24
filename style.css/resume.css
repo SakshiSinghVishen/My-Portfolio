@@ -23,6 +23,13 @@ nav a{
   font-family: 'Cambria';
 }
 
+main{
+    background-color: #7d6854;
+    width: 100vw;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
 footer{
     background-color: #0e0e0d;
 }
@@ -63,13 +70,6 @@ footer{
   gap:20rem;
 }
 
-main{
-    background-color: #7d6854;
-    height:90vh;
-    width: 100vw;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
 
 .box-img {
   height: 25vh;
@@ -77,13 +77,9 @@ main{
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-#image {
-  object-fit: cover;
-  margin-left: 3rem;
 }
 
 #name {
@@ -103,11 +99,11 @@ main{
 }
 
 .resume-box{
-  position: absolute;
   width: 100vw;
   height: 30rem;
   justify-items: center;
   align-content: center;
+  margin-bottom: 1rem;
 }
 
 .resume-bg{
@@ -119,6 +115,7 @@ main{
   background-color: #ad9c8c;
   align-items: center;
   border-radius: 3rem;
+  box-shadow: 2px 2px 5px rgba(5, 5, 3, 0.6);
 }
 
 #resume-ss{
