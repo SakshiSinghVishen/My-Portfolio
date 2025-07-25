@@ -1,0 +1,36 @@
+#footer {
+  background-color: black;
+  color: white;
+  padding: 30px 125px;
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 10px;
+
+}
+
+#footer #contact-me {
+  display: block;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Cambria';
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+
+#footer .logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 175px;
+}
+
+#footer .logos img {
+  width: 1.5rem;
+  height: 1.5rem;
+  transition: transform 0.2s ease;
+}
+
+#footer .logos img:hover {
+  transform: scale(1.2);
+}
