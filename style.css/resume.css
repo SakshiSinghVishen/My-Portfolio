@@ -95,6 +95,6 @@ main{
 h1{
   font-family: 'Times New Roman', Times, serif;
   color: black;
-  margin-bottom: 0.5rem;
+  /* margin-bottom: 0.5rem; */
 }
 
